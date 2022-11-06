@@ -17,9 +17,10 @@
 ### Features
 
 - [x] Darkmode
-- [X] Server
+- [x] Server
 - [x] Mongo local Database
-- [X] Urlshortener
+- [x] Urlshortener
+- [x] JavaScript Best Practices
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/94198920/200186452-c5c3853d-6d96-4ddd-ae02-2712f3c22723.png" alt="light" style="width:800px;"/>  
