@@ -32,7 +32,8 @@ main {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: stretch;
-  width: 30em;
+  width: 50%;
+  max-width: 40em;
 }
 
 #input-box {
@@ -70,6 +71,7 @@ main {
 }
 
 #main-table-links {
+  color: var(--text-color);
   border-collapse: separate;
   margin: 25px 0;
   font-size: 0.9em;
@@ -82,16 +84,32 @@ main {
 #main-table-links th {
   background-color: var(--green);
   height: 2em;
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--white);
-  border-bottom: var(--text-color) solid 2px;
+  border-bottom: var(--grey) solid 2px;
 }
 
 #main-table-links td {
   overflow-x: auto;
   padding: 5px;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  background: var(--alternate-background-color);
 }
 
 #main-table-links td::-webkit-scrollbar {
   height: 5px;
+}
+
+#not-registered-message {
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 28px;
+  background: var(--alternate-background-color);
+  padding: 20px;
+  color: var(--text-color);
+  border-radius: 50px;
+  
 }
