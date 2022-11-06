@@ -1,0 +1,115 @@
+h1 {
+  align-items: center;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 8px;
+}
+
+#form-url-short {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 50%;
+  max-width: 40em;
+}
+
+#input-box {
+  display: flex;
+}
+
+#input-box label {
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: var(--white);
+  background-color: var(--green);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#input-box input[type="url"] {
+  border-top-right-radius: 5px;
+
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--grey);
+  outline: none;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+#form-url-short button {
+  font-size: 1em;
+  margin-top: 1px;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#main-table-links {
+  color: var(--text-color);
+  border-collapse: separate;
+  margin: 25px 0;
+  font-size: 0.9em;
+  table-layout: fixed;
+  width: 80%;
+  border: var(--text-color) solid 2px;
+  border-radius: 5px;
+}
+
+#main-table-links th {
+  background-color: var(--green);
+  height: 2em;
+  font-size: 2em;
+  color: var(--white);
+  border-bottom: var(--grey) solid 2px;
+}
+
+#main-table-links td {
+  overflow-x: auto;
+  padding: 5px;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  background: var(--alternate-background-color);
+}
+
+#main-table-links td::-webkit-scrollbar {
+  height: 5px;
+}
+
+#not-registered-message {
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 28px;
+  background: var(--alternate-background-color);
+  padding: 20px;
+  color: var(--text-color);
+  border-radius: 50px;
+  
+}
